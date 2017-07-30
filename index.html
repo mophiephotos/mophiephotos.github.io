@@ -18,6 +18,26 @@
 <meta name="HandheldFriendly" content="true"/>
 <meta name="MobileOptimized" content="320"/>   
 
+
+<!-- refs/favis -->
+<link rel="apple-touch-icon" sizes="57x57" href="refs/favis/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="refs/favis/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="refs/favis/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="refs/favis/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="refs/favis/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="refs/favis/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="refs/favis/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="refs/favis/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="refs/favis/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="refs/favis/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="refs/favis/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="refs/favis/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="refs/favis/favicon-16x16.png">
+<link rel="manifest" href="refs/favis/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="refs/favis/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
 <!-- Mobile Internet Explorer ClearType Technology -->
 <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
@@ -139,9 +159,11 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Type of Work</li>
                         <li><a href="#filter" data-option-value="*" class="selected">All Moments</a></li>
-                        <li><a href="#filter" data-option-value=".design">Portraiture</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Landscapes</a></li>
-                        <li><a href="#filter" data-option-value=".video">Streets</a></li>
+                        <li><a href="#filter" data-option-value=".wedding">Weddings</a></li>
+                        <li><a href="#filter" data-option-value=".event">Events</a></li>
+                        <li><a href="#filter" data-option-value=".portrait">Portraiture</a></li>
+                        <li><a href="#filter" data-option-value=".street">Streets</a></li>
+                        <!-- <li><a href="#filter" data-option-value=".video">Videos</a></li> -->
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -153,7 +175,7 @@
                     	<ul id="thumbs">
                         
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	<li class="item-thumbs span3 wedding">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="refs/img/work/full/image-01-full.jpeg">
                                 	<span class="overlay-img"></span>
@@ -165,7 +187,7 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	<li class="item-thumbs span3 wedding">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="refs/img/work/full/image-02-full.jpeg">
                                 	<span class="overlay-img"></span>
@@ -177,7 +199,7 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
+                        	<li class="item-thumbs span3 event">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="refs/img/work/full/image-03-full.jpeg">
                                 	<span class="overlay-img"></span>
@@ -189,19 +211,7 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="refs/img/work/thumbs/image-08.jpeg" alt="Video">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
+                        	<li class="item-thumbs span3 event">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="refs/img/work/full/image-04-full.jpeg">
                                 	<span class="overlay-img"></span>
@@ -212,34 +222,23 @@
                             </li>
                         	<!-- End Item Project -->
                             
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="refs/img/work/full/image-05-full.jpeg">
-                                	<span class="overlay-img"></span>
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 portrait">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="refs/img/work/full/image-05-full.jpeg">
+                                    <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="refs/img/work/thumbs/image-05.jpeg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
                             </li>
-                        	<!-- End Item Project -->
-                            
+                            <!-- End Item Project -->
+
+
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="refs/img/work/thumbs/image-09.jpeg" alt="Video">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	<li class="item-thumbs span3 portrait">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="refs/img/work/full/image-06-full.jpeg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="refs/img/work/full/image-06-full.jpeg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
@@ -248,10 +247,11 @@
                             </li>
                         	<!-- End Item Project -->
                             
+
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	<li class="item-thumbs span3 portrait">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="refs/img/work/full/image-07-full.jpeg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="refs/img/work/full/image-07-full.jpeg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
@@ -259,6 +259,30 @@
                                 <img src="refs/img/work/thumbs/image-07.jpeg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
                             </li>
                         	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 street">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="refs/img/work/full/image-08-full.jpeg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="refs/img/work/thumbs/image-08.jpeg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 street">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="refs/img/work/full/image-09-full.jpeg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="refs/img/work/thumbs/image-09.jpeg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
                         </ul>
                     </section>
                     
@@ -285,18 +309,17 @@
     <!-- End Title Page -->
     
     <!-- People -->
-    <div class="row" style="align-content: center;">
+    <div class="row">
     	
         <!-- Start Profile -->
         
-    	<div class="span4 profile" style="text-align: center;">
+    	<div class="span4 profile" style="width: 100%; margin:0 auto;">
         	<div class="image-wrap">
                 
                 <img src="refs/img/profile/profile-01.jpeg" alt="John Doe">
             </div>
             <h3 class="profile-name">Nikhil Makode</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">A thinker. A photographer. A videographer. An artist.</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -336,8 +359,8 @@
     <!-- Contact Form -->
     <div class="row">
         <div class="span9">
-        
-            <form id="contact-form" class="contact-form" action="#">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1537962534453!2d75.88135691429825!3d22.75967303181514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302a3570e3725%3A0x4e6ba589e72861c7!2sSector+DK1%2C+Scheme+No+74C%2C+Indore%2C+Madhya+Pradesh+452010!5e0!3m2!1sen!2sin!4v1501450935439" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <!-- <form id="contact-form" class="contact-form" action="#">
                 <p class="contact-name">
                     <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
                 </p>
@@ -354,7 +377,7 @@
                 <div id="response">
                 
                 </div>
-            </form>
+            </form> -->
          
         </div>
         
@@ -362,12 +385,12 @@
             <div class="contact-details">
                 <h3>Contact Details</h3>
                 <ul>
-                    <li><a href="#">mophie@bmophie.photography</a></li>
-                    <li>+91 9821 23 43 56</li>
+                    <li><a href="mailto:nikhil.makode19@gmail.com&subject=Query%from%website">nikhil.makode19@gmail.com</a></li>
+                    <li>+91 7566 91 74 23</li>
                     <li>
                         Mophie Photography
                         <br>
-                        VijayNagar
+                        Vijay Nagar
                         <br>
                         Indore
                     </li>
@@ -381,7 +404,7 @@
 <!-- End Contact Section -->
 
 <!-- Twitter Feed -->
-<div id="twitter-feed" class="page-alternate" style="display: none;">
+<!-- <div id="twitter-feed" class="page-alternate" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="span12">
@@ -394,7 +417,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Twitter Feed -->
 
 <!-- Socialize -->
@@ -405,7 +428,7 @@
                 <nav id="social">
                     <ul>
                         <li><a href="https://www.instagram.com/mophiephotography/" target="_blank"><span class="font-icon-social-photobucket"></span></a></li>
-                        <li><a href="https://www.facebook.com/nikhil.makode.5" target="_blank" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://www.facebook.com/pg/mophiephotography" target="_blank" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -415,7 +438,7 @@
 <!-- End Socialize -->
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2017 Mophie. <a href="#" title="Mophie | Photography">Mophie Photography</a> by <a href="http://www.cybfoc.com/" title="cybfoc &amp; Front-end Developer">CyberFocus</a></p>
+	<p class="credits">&copy;2017 Mophie. <a href="http://www.mophie.photography" target="_blank" title="Mophie | Photography">Mophie Photography</a> by <a href="http://www.cybfoc.com/" target="_blank" title="cybfoc &amp; Front-end Developer">CyberFocus</a></p>
 </footer>
 <!-- End Footer -->
 
@@ -438,6 +461,18 @@
 <script src="refs/js/jquery.tweet.js"></script> <!-- Tweet -->
 <script src="refs/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="refs/js/main.js"></script> <!-- Default JS -->
+<script type="text/javascript">document.addEventListener('contextmenu', event => event.preventDefault());</script>
+<script type="text/javascript">
+    
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103584553-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <!-- End Js -->
 <!-- <script type="text/javascript">$(document).ready(function() {
     $("#block").on("contextmenu",function(){
