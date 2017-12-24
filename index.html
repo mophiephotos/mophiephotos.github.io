@@ -81,13 +81,18 @@
 
 <!-- Modernizr -->
 <script src="refs/js/modernizr.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
 
 
 
 </head>
+<script type="text/javascript">
+     function clickEvent()  {
+                document.getElementById("defaultBtn").click();
+            }
+</script>
 
-
-<body id="block">
+<body id="block" onload="clickEvent()">
 
 <!-- This section is for Splash Screen -->
 <div class="ole">
@@ -159,7 +164,7 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Type of Work</li>
                         <!-- <li><a href="#filter" data-option-value="*" class="selected">All Moments</a></li> -->
-                        <li><a href="#filter" data-option-value=".evnt">Events</a></li>
+                        <li><a href="#filter" data-option-value=".evnt" id="defaultBtn">Events</a></li>
                         <li><a href="#filter" data-option-value=".fashionmake">Fashion & Make-up</a></li>
                         <li><a href="#filter" data-option-value=".travelstreet">Travel & Street</a></li>
                         <li><a href="#filter" data-option-value=".wedding">Wedding</a></li>
@@ -499,6 +504,11 @@
 <script src="refs/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="refs/js/main.js"></script> <!-- Default JS -->
 <script type="text/javascript">
+
+// $("document").ready(function() {
+//                 $("#defaultBtn").trigger('click');
+//             });
+
 document.addEventListener('contextmenu', event => event.preventDefault());
 </script>
 
